@@ -42,3 +42,30 @@ let n=20;
 let result = add3(m,n);
 console.log(result);
 
+//function to give grade to student based on percentage
+function grade(percentage){
+    if(percentage>=90){
+        return "A+";
+    }else if(percentage>=80){
+        return "A";
+    }
+    else if(percentage>=70){
+        return "B+";
+    }
+    else if(percentage>=60){
+        return "B";
+    }
+    else if(percentage>=50){
+        return "C";
+    }
+    else if(percentage>=40){
+        return "D";
+    }
+    else{
+        return "F";
+    }
+}
+let percentage = 85;
+let studentGrade = grade(percentage);
+console.log(studentGrade);
+
