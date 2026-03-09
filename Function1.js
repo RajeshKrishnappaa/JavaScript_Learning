@@ -9,7 +9,7 @@ function add(){
 }
 add();
 
-//input but no output function type 2
+//No input but output function type 2
 let x= 10;
 let y=20;
 
@@ -21,7 +21,7 @@ function add1(){
 let res = add1();
 console.log(res);
 
-//function type 3
+//function type 3 input but no output
 function add2(x,y){
     let z;
     z=x+y;
