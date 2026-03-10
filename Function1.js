@@ -85,3 +85,25 @@ const studentPercentage = 85;
 const studentGrade = grade(studentPercentage);
 console.log(`\nGrade Function Test: For ${studentPercentage}% score, Grade = ${studentGrade}`);
 
+//function declaration
+function add5(x,y){
+    return x+y;
+}
+console.log( add5(40,20));
+
+//function expression
+let add6 = function(x,y){
+    return x+y;
+}
+console.log( add6(30,20));
+
+//arrow function
+let add4 = (x,y) =>{
+    return x+y;
+}
+console.log( add4(10,20));
+
+//IIFE(Immedietely Invoked Function Expression)
+(function(){
+    console.log("I run immediately");
+})();
